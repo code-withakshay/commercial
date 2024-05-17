@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    align-items: center;
+    background-color:#0f1111;
+    color:white ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    /*background-image: url("CODELOGO3.jpg");
+    background-size: cover;*/
+    font-family: 'Franklin Gothic Medium';
+    font-size: 1rem;
+    color: #F28C38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+}
+.logo i{
+    transform: rotate(45deg);
+    margin-bottom: 20px;
+}
+.boder{
+    border: 0.5px solid transparent;
+
+}
+.boder:hover{
+    border: 0.5px solid white;
+}
+/** Box2**/
+.add-first{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left: 18px;
+}
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+    margin-left: 3px;
+}
+/**Box3**/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+     background-color: #F28C38;
+     height: 40px;
+     width: 550px;
+     border-radius: 4px;
+}
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: left;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+    border:none ;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/**Box4**/
+
+span{
+    font-size: 0.7rem;
+}
+.nav-sec{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+span{
+    font-size: 0.7rem;
+}
+.nav-Return{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/**Box5**/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: w;
+}
+
+/**Panel**/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 14px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    
+}
+.panel-deal{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/**Hero section**/
+.hero-section{
+    background-image: url("computer.jpg");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: white;
+    color: rgb(243, 12, 70);
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 150px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/**Shop section**/
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+.box{
+    /*border: 2px solid black;*/
+    height: 325px;
+    width: 20%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+.box-img{
+    height: 275px;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.box-content p{
+    color: #007185;
+}
+
+/**Footer**/
+
+footer{
+    margin-top: 20px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.foot-panel2{
+    background-color:#222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 25px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+ul p{
+    font-size: x-large;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    height: 70px;
+    /*color: white;*/
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.foot-logo{
+    font-family: 'Franklin Gothic Medium';
+    color: #F28C38;
+    font-size: x-large;
+    
+}
+.foot-logo i{
+transform: rotate(45deg);
+
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.85rem;
+    text-align: center;
+}
+.pages{
+    padding-top: 25px;
+
+}
+.copyright{
+    padding-top: 5px;
+}
